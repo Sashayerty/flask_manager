@@ -78,7 +78,7 @@ def index():
             f"./{project_name}/{project_name}/{name_of_app}/routes.py", "w"
         )
         routes_file.write(routes_file_inner)
-        init_file_inner = f"""from app.config import config
+        init_file_inner = f"""from {project_name}.config import config
 from flask import Flask
 
 from {project_name}.{name_of_app}.routes import {name_of_app}
