@@ -1,4 +1,4 @@
-# Flask Manager [![Generic badge](https://img.shields.io/badge/Crafted_with_Python_for-Flask-green.svg)](https://github.com/Sashayerty/flask_manager)
+# Flask Manager [![Generic badge](https://img.shields.io/badge/Crafted_with_Python_for-Flask-green.svg)](https://github.com/Sashayerty/flask_manager) ![Static Badge](https://img.shields.io/badge/Created_with-uv-green)
 
 Flask Manager is a simple command-line interface (CLI) tool designed to help you quickly set up the base structure of a Flask application. This tool automates the creation of essential files and directories, allowing you to focus on developing your application rather than setting up the project structure.
 
