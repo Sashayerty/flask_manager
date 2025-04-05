@@ -1,4 +1,4 @@
-# Flask Manager
+# Flask Manager [![Generic badge](https://img.shields.io/badge/Crafted_with_Python_for-Flask-green.svg)](https://github.com/Sashayerty/flask_manager)
 
 Flask Manager is a simple command-line interface (CLI) tool designed to help you quickly set up the base structure of a Flask application. This tool automates the creation of essential files and directories, allowing you to focus on developing your application rather than setting up the project structure.
 
@@ -44,11 +44,36 @@ Do you wanna to create app [y/N]? y
 Write name of first app: my_app
 ```
 
+## Building with PyInstaller (Cross-Platform)
+
+To create a standalone executable for Windows, Linux, or macOS, follow these steps:
+
+1. First install PyInstaller:
+
+```bash
+#Windows
+pip install pyinstaller
+
+#Linux/MacOS
+pip3 install pyinstaller
+```
+
+2. Build the executable (platform-specific):
+
+```bash
+pyinstaller --onefile --name flask_manager flask_manager.py
+```
+
+This will create:
+
+- Windows: dist/flask_manager.exe
+- Linux/MacOS: dist/flask_manager
+
 ## Project Structure
 
 The tool will create the following structure for your project:
 
-```
+```bash
 my_flask_app/
 │
 ├── my_flask_app/
